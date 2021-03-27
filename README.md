@@ -21,7 +21,7 @@ Windows:
 2. Press `Win+R` and type `shell:startup`. Press `Enter`.
     * This will open up a folder will shortcuts that are ran at startup.
 3. Move the shortcut you created in part 6 into the startup folder. Remove the " - Shortcut" from the name if you want.
-4. If you want to undo this, you can remove the shortcut
+4. If you want to undo this, you can remove the shortcut.
 
 Linux:
 1. Figure it out yourself. That's why you have Linux, right?
