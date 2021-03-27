@@ -1,6 +1,3 @@
-# Phasmophobia Run
-A basic AutoHotKey script to allow for easier running in the game Phasmophobia.
-
 # Install Instructions
 0. In Phasmophobia, change the "run" keybinding to `\`.
     * You can modify the script to change that if you like.
