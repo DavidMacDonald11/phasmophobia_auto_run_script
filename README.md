@@ -2,8 +2,10 @@
 0. In Phasmophobia, change the "run" keybinding to `\`.
     * You can modify the script to change that if you like.
     * The script will pass through the `Shift` key, so you probably won't want anything bound to it.
-1. Download the `.ahk` file from this github page.
-2. Place it somewhere you'll remember.
+1. Click the green `Code` button on [Github](https://github.com/DavidMacDonald11/phasmophobia_run) and click **Download Zip**.
+    * Download it somewhere you'll remember.
+2. Right click the downloaded file and unzip it.
+    * Place the unzipped files in a location you want them to remain indefinetly.
 3. Install [Auto Hotkey](https://www.autohotkey.com/).
     * Here is a recommended [video tutorial](https://www.youtube.com/watch?v=k7e9MrP-U_g) if needed.
     * Ensure Auto Hotkey starts at system start
