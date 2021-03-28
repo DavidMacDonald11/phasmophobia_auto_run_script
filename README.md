@@ -37,5 +37,36 @@ With the script running, you can play Phasmophobia as per usual. In game, you'll
 
 If you know how AutoHotkey works, you can change the script to suit your needs.
 
+# How to Change Keys Used
+There are two keys you can change:
+- The key you hold to walk (Default: `Shift`)
+    * This key will be passed to the game, so if it is bound to something, it will trigger when you press the key.
+- The key the game uses to run (Default: `\`)
+    * This key is directly sent to the game, so it must be unique. I chose `\` since I'm never going to use that key for anything in game.
+
+1. Go to the [Auto Hotkey docs](https://www.autohotkey.com/docs/KeyList.htm) and find the name of the key you want.
+    * If it's a basic key like a letter, it'll probably be just the letter.
+
+### To Change the Key You Hold
+2. On line **7** of the `.ahk` file, replace `Shift` with the key you want.
+    * The `~` syntax is necessary so that the key will be passed through so line 10 can read it to check its state.
+    * The `*` syntax is necessary because, without it, this would only trigger if the *only* key you are pressing is the walk key; it wouldn't work at all.
+    * The `::` syntax tells the script to listen for the preceding key to be pressed.
+3. On line **10** of the `.ahk` file, replace `Shift` with the key you want.
+    * This line checks whether the walk key is begin held down. If it is, it does nothing. Once you let go, it tells the game you're holding down the run key.
+
+### To Change the Key The Game Sees
+2. On line **9** of the `.ahk` file, replace `\` with the key you want.
+    * This line stops running because the walk key was pressed. The following line keeps the player walking until the walk key is let go of.
+3. On line **12** of the `.ahk` file, replace `\` with the key you want.
+    * This line makes it so once you let go of the walk key, you will be running.
+4. Open Phasmophobia and change your run keybinding to the key you used on lines 9 and 12.
+
+### **Then, for Either Case**
+
+- Recompile and run the script. You'll see a warning about replacing a running script but you can dismiss that.
+    * If you didn't move the files, it should still run automatically at startup if you set that up prior.
+    * If you see a syntax error, you did something wrong. There's a lot of options so good luck searching. Worst case, you can always redownload the file from Github, replace it, and recompile it.
+
 # Liability
 I do not take any responsability for you dying in game due to the script acting as expected, nor for the script acting unexpected. Always know you can hold `\` (or whatever key you rebound it to) to run if the script breaks.
