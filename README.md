@@ -8,7 +8,7 @@
     * Place the unzipped files in a location you want them to remain indefinetly.
 3. Install [Auto Hotkey](https://www.autohotkey.com/).
     * Here is a recommended [video tutorial](https://www.youtube.com/watch?v=k7e9MrP-U_g) if needed.
-    * Ensure Auto Hotkey starts at system start
+    * Ensure Auto Hotkey starts at system start.
 4. Go to the `.ahk` file you downloaded. With Auto Hotkey installed, you should be able to right click on it and select **Compile Script**.
     * This will compile the script into a `.exe` file and then run it.
 5. Run the `.exe` by double clicking on it.
@@ -35,7 +35,7 @@ If you set up running the script automatically, you should be all set. Otherwise
 
 With the script running, you can play Phasmophobia as per usual. In game, you'll have to press `Shift` at least once to acitivate it. From there, it *should* continue to function. If for some reason it fails to function, tap `Shift` again to reset it. Otherwise, it is likely that the script is no longer running.
 
-If you know how AutoHotkey works, you can change the script to suit your needs.
+If you know how Auto Hotkey works, you can change the script to suit your needs.
 
 # How to Change Keys Used
 There are two keys you can change:
@@ -62,7 +62,7 @@ There are two keys you can change:
     * This line makes it so once you let go of the walk key, you will be running.
 4. Open Phasmophobia and change your run keybinding to the key you used on lines 9 and 12.
 
-### **Then, for Either Case**
+### Then, for Either Case
 
 - Recompile and run the script. You'll see a warning about replacing a running script but you can dismiss that.
     * If you didn't move the files, it should still run automatically at startup if you set that up prior.
@@ -70,3 +70,9 @@ There are two keys you can change:
 
 # Liability
 I do not take any responsability for you dying in game due to the script acting as expected, nor for the script acting unexpected. Always know you can hold `\` (or whatever key you rebound it to) to run if the script breaks.
+
+This script will not:
+- Let you outrun a revenant.
+- Find the bone seriously guys I can't find this thing where is it did it spawn under the bed what the hell-
+
+Happy Hunting!
