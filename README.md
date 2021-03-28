@@ -5,9 +5,11 @@
 1. Click the green `Code` button on [Github](https://github.com/DavidMacDonald11/phasmophobia_auto_run_script) and click **Download Zip**.
     * Download it somewhere you'll remember.
 2. Right click the downloaded file and unzip it.
+    * On Windows, click **Extract All**.
     * Place the unzipped files in a location you want them to remain indefinetly.
 3. Install [Auto Hotkey](https://www.autohotkey.com/).
     * Here is a recommended [video tutorial](https://www.youtube.com/watch?v=k7e9MrP-U_g) if needed.
+    * Use the default options.
     * Ensure Auto Hotkey starts at system start.
 4. Go to the `.ahk` file you downloaded. With Auto Hotkey installed, you should be able to right click on it and select **Compile Script**.
     * This will compile the script into a `.exe` file and then run it.
@@ -36,6 +38,16 @@ If you set up running the script automatically, you should be all set. Otherwise
 With the script running, you can play Phasmophobia as per usual. In game, you'll have to press `Shift` at least once to acitivate it. From there, it *should* continue to function. If for some reason it fails to function, tap `Shift` again to reset it. Otherwise, it is likely that the script is no longer running.
 
 If you know how Auto Hotkey works, you can change the script to suit your needs.
+
+# How to Stop the Script
+The script will only run when you play Phasmophobia. However, if you wish to stop it there are two easy options:
+    * In the system tray in the bottom right of the taskbar, click **Show hidden icons**. If the script is running, you'll see a green square with a white "H". Right click the script and click **Exit**.
+    * Open the task manager by pressing `Ctrl+Shift+Esc` (or via `Ctrl+Alt+Del`). Click **More Details** Find the script in the **Process** tab, click on it, and click **End task**.
+
+# Uninstall Instructions
+1. If you set up automatically running at start up, you can press `Win+R` and type `shell:startup` and `Enter`, find the shortcut you created, and delete it.
+2. Delete the files you downloaded for this script.
+3. In Windows settings, go to Apps and search "Auto Hotkey". Click it and click **Uninstall.** Go through the ininstall process.
 
 # How to Change Keys Used
 There are two keys you can change:
