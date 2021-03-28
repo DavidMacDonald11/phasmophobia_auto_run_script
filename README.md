@@ -31,6 +31,8 @@ MacOS:
 2. Google it.
 
 # Usage Instructions
+If you set up running the script automatically, you should be all set. Otherwise, naviagate to the files you downloaded and run the `.exe` you created in step 5 of the install.
+
 With the script running, you can play Phasmophobia as per usual. In game, you'll have to press `Shift` at least once to acitivate it. From there, it *should* continue to function. If for some reason it fails to function, tap `Shift` again to reset it. Otherwise, it is likely that the script is no longer running.
 
 If you know how AutoHotkey works, you can change the script to suit your needs.
