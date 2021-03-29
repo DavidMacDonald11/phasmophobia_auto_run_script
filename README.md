@@ -40,9 +40,9 @@ With the script running, you can play Phasmophobia as per usual. In game, you'll
 If you know how Auto Hotkey works, you can change the script to suit your needs.
 
 # How to Stop the Script
-The script will only run when you play Phasmophobia. However, if you wish to stop it there are two easy options:
-    * In the system tray in the bottom right of the taskbar, click **Show hidden icons**. If the script is running, you'll see a green square with a white "H". Right click the script and click **Exit**.
-    * Open the task manager by pressing `Ctrl+Shift+Esc` (or via `Ctrl+Alt+Del`). Click **More Details** Find the script in the **Process** tab, click on it, and click **End task**.
+The script will only affect your system when you play Phasmophobia; there should be no harm from leaving it always running. However, if you wish to stop it there are two easy options:
+- In the system tray in the bottom right of the taskbar, click **Show hidden icons**. If the script is running, you'll see a green square with a white "H". Right click the script and click **Exit**.
+- Open the task manager by pressing `Ctrl+Shift+Esc` (or via `Ctrl+Alt+Del`). Click **More Details** Find the script in the **Process** tab, click on it, and click **End task**.
 
 # Uninstall Instructions
 1. If you set up automatically running at start up, you can press `Win+R` and type `shell:startup` and `Enter`, find the shortcut you created, and delete it.
