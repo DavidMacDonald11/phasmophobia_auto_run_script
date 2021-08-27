@@ -1,3 +1,6 @@
+# UPDATE
+This program is now unnecessary as of Phasmophobia update 0.3.0.0, with the new sprint mechanics. This program can still be used, but is more likely to get you killed. Use at your own discretion. 
+
 # Install Instructions
 0. In Phasmophobia, change the "run" keybinding to `\`.
     * You can modify the script to change that if you like.
